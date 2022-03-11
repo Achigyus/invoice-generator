@@ -60,7 +60,7 @@ washCar.addEventListener("click", function() {
     washCar.disabled = true
     sum += services[0].price
     totalCost.textContent = "$" + sum
-    notes.innerHTML = `<p class="notes-active">We accept cash, credit card, or PayPal</p>`
+    notes.innerHTML = `<p>NOTES</p><p class="notes-active">We accept cash, credit card, or PayPal</p>`
 })
 mowLawn.addEventListener("click", function() {
     let washPrice = ""
@@ -72,7 +72,7 @@ mowLawn.addEventListener("click", function() {
     mowLawn.disabled = true
     sum += services[1].price
     totalCost.textContent = "$" + sum
-    notes.innerHTML = `<p class="notes-active">We accept cash, credit card, or PayPal</p>`
+    notes.innerHTML = `<p>NOTES</p><p class="notes-active">We accept cash, credit card, or PayPal</p>`
 
 })
 pullWeeds.addEventListener("click", function() {
@@ -85,7 +85,7 @@ pullWeeds.addEventListener("click", function() {
     pullWeeds.disabled = true
     sum += services[2].price
     totalCost.textContent = "$" + sum
-    notes.innerHTML = `<p class="notes-active">We accept cash, credit card, or PayPal</p>`
+    notes.innerHTML = `<p>NOTES</p><p class="notes-active">We accept cash, credit card, or PayPal</p>`
 
 })
 sendBtn.addEventListener("click", function() {

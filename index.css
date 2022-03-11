@@ -168,6 +168,10 @@ hr {
     font-style: normal;
 }
 
+#notes p{
+    margin-left: 5px;
+}
+
 .notes-active {
     height: 15px;
     font-family: Inter;
