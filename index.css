@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    background: #1c1c1c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-box {
+    min-width: 550px;
+    min-height: 719px;
+    background: #1f2937;
+}
+
+.header {
+    width: 100%;
+    background: #3a69d2;
+    height: 190px;
+    padding: 0 38.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1 {
+    margin-bottom: 9px;
+    width: 354px;
+    height: 40px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.header p {
+    width: 408px;
+    height: 31px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 0;
+}
+
+.services-el {
+    padding: 0 38.5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 41px;
+    margin-bottom: 43px;
+}
+
+.services-el button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px;
+    min-height: 45px;
+    background: #D1D4F4;
+    border: 1px solid #d5d4d8;
+    border-radius: 7px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #4a4e74;
+    transition: all ease-in 0.2s;
+}
+
+.services-el button:hover {
+    border: 2px solid #FFFFFF;
+}
+
+.services-el button:active {
+    border: 2px solid #FFFFFF;
+}
+
+.task-el {
+    display: flex;
+    flex-direction: row;
+    padding: 0 38.5px;
+    justify-content: space-between;
+    color: #d5d4d8;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: bold;
+    font-style: normal;
+    margin-bottom: 50px;
+}
+
+.task-active {
+    height: 21px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    color: #F5F5F5;
+}
+
+.task-active span{
+width: 31px;
+height: 20px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 8px;
+line-height: 20px;
+color: #D5D4D8;
+margin-left: 15px;
+cursor: pointer;
+}
+
+.cost-active {
+    width: 71px;
+    height: 21px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 20px;
+    text-align: right;
+    color: #F5F5F5;
+}
+
+.cost-active span{
+    color: #918E9B;
+}
+
+hr {
+    margin: 0 38.5px;
+}
+
+.total-el {
+    display: flex;
+    flex-direction: row;
+    padding: 0 38.5px;
+    justify-content: space-between;
+    color: #d5d4d8;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.notes-active {
+    height: 15px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #F5F5F5;
+}
+
+.total-cost {
+    width: 105px;
+    height: 28px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 32px;
+    text-align: right;
+    color: #F5F5F5;
+    margin-bottom: 50px;
+}
+
+#total p {
+    text-align: right;
+}
+
+.send-btn {
+    padding: 0 38.5px;
+}
+
+.send-btn button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    width: 473px;
+    height: 44px;
+    background: #3A69D2;
+    border: 1px solid #3a69d2;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 7px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 70px;
+}
+
+.send-btn button img {
+    margin-right: 12px;
+}
+
+@media screen and (max-width: 500px) {
+    .main-box {
+        min-width: 100%;
+    }
+    .services-el button{
+        padding: 4px 8px;
+        width: 30%;
+    }
+    .send-btn {
+        padding: 0 38.5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .send-btn button {
+        width: 90%;
+    }
+}
