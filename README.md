@@ -1,16 +1,6 @@
-# title(){return this.options.title||this.options.name}
-
-## Supporting Scrimba
-
-Since 2017, we have created over 20 free courses on Scrimba, and we're going to
-continue launching free courses. But to pay our bills, we have to charge once
-in a while. So if you've ever wanted to "give back" to Scrimba, you can do that by buying
-	one of our paid courses
-
-- [Become a professional React developer](https://scrimba.com/course/greact)
-- [The Responsive Web Design Bootcamp](https://scrimba.com/course/gresponsive)
-- [The Ultimate JavaScript Bootcamp](https://scrimba.com/course/gjavascript)
-
-	It would also mean the world to us if you share the courses.  
-
-Happy Coding!
+# invoice generator
+<p>This is an Invoice-generator created from Scrimba's invoice-generator challenge</p>
+<p>It allows you to add an item from the list to the invoice</p>
+<p>It allows you to remove an item fom the invoice</p>
+<p>It automatically updates the price list when an item is added or removed from the invoice</p>
+<p>It doesn't allow duplicates in the invoice, you can only buy one thing once😉</p>
